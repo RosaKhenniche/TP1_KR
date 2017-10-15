@@ -2,11 +2,14 @@ import java.io.FileNotFoundException;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
+/**
+ *
+ */
 public class VectorHelper {
-    public static int [] Somme (int [] Tab1, int []Tab2){/**Fonction qui fait la somme des valeurs de deux tableaux en entrée et retourne le tableau resultatant**/
+    public static int [] Somme (int [] Tab1, int []Tab2){/**Fonction qui fait la somme des valeurs de deux tableaux en entrï¿½e et retourne le tableau resultatant**/
     	int[] Tab=null;/** Declarer un tableau vide **/
     try{	
-    	if (Tab1.length==Tab2.length){   /** Le cas d'egalité de longeur des tables **/
+    	if (Tab1.length==Tab2.length){   /** Le cas d'egalitï¿½ de longeur des tables **/
     		Tab=new int [Tab1.length];   /** Donner la taille commune des deux tableaux au tableau  deja Declarer **/
     		for (int i=0;i<Tab1.length;i++){ /**Parcourir tous les elements des deux tableaux **/
     			Tab[i]=Tab1[i]+Tab2[i]; /**Affecter le resultat de la somme  des  deux cases des 2 tableaux dans le nouveau tableau**/ 			
@@ -24,22 +27,22 @@ public class VectorHelper {
 		
 		}
     
-    public static int[] inverse(int Tab[]){/**une fonction qui donne en sortie un tableau inverser de celui en entrée**/
-    	int k2=Tab.length-1; /**Affecter l'indice du dernier element du tableau en entrée a une variable**/
+    public static int[] inverse(int Tab[]){/**une fonction qui donne en sortie un tableau inverser de celui en entrï¿½e**/
+    	int k2=Tab.length-1; /**Affecter l'indice du dernier element du tableau en entrï¿½e a une variable**/
     	int kmid=k2/2; /**Affecter l'indice du millieu : l'indice d'arret d'inversement  **/
     	int val; /** Une variable qui permet de permuter entre deux elements **/
-    	for (int k1=0;k1<=kmid;k1++){/**Une boucle qui varie entre le debut et le millieu du tableau en entrée**/
+    	for (int k1=0;k1<=kmid;k1++){/**Une boucle qui varie entre le debut et le millieu du tableau en entrï¿½e**/
     		val=Tab[k1];/**affecter la valeur a permuter dans une variable **/
     		Tab[k1]=Tab[k2];/**Affecter un element a permuter dans la case de celui qui est enregistrer dans la variable val**/
-    		Tab[k2]=val;/**affecter la valeur de val dans la case deja permutée**/
-    		k2--;/**décrementer pour passer au prochain element a permuter avec l'element de la case Tab[k1] avec k1 qui va etre incrementé a l'aide de la boucle for **/
+    		Tab[k2]=val;/**affecter la valeur de val dans la case deja permutï¿½e**/
+    		k2--;/**dï¿½crementer pour passer au prochain element a permuter avec l'element de la case Tab[k1] avec k1 qui va etre incrementï¿½ a l'aide de la boucle for **/
     		
     	}
     	
     	return Tab;
     }
     
-    public static int [] formule(int Tab[],char c,int k){/**une fonction qui donne en sortie un tableau dont la formule c ,par la valeur k ,est realisé
+    public static int [] formule(int Tab[],char c,int k){/**une fonction qui donne en sortie un tableau dont la formule c ,par la valeur k ,est realisï¿½
     	if ((c!='+')&&(c!='*')&&(c!='/')&&(c!='-'))/**le cas ou le caractere ne represente aucune formule**/
     	{System.out.println("Vous ne pouvez que faire la division /,la somme + ,soustraction -, produit *" );/**Afficher un message**/}
     	if (c=='+'){/**Le cas de la somme**/

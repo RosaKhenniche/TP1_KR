@@ -23,7 +23,7 @@ public class VectorHelperRosa {
          * fonction qui permet de trier un tableau selon un ordre croissant
          */
         int cpt = 0; /** varible qui permet de reparcourir de vecteur pour chaque "i" jusqu'a
-         ce que le vecteur soit trier 
+         ce que le vecteur soit trier
          **/
         do {
 
