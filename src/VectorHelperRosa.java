@@ -18,29 +18,25 @@ public class VectorHelperRosa {
     }
 
 
-    public int [] Tri(int [] v) {
-        /**
-         * fonction qui permet de trier un tableau selon un ordre croissant
-         */
-        int cpt = 0; /** varible qui permet de reparcourir de vecteur pour chaque "i" jusqu'a
-         ce que le vecteur soit trier
-         **/
-        do {
+    public static int [] Tri(int [] v) {
+        
+        int k1=0;
+       int m;
+       while(k1<v.length){
+        for (int i = k1+1; i <v.length ; i++) {
 
+        
+          if (v[k1] > v[i ]) {
+                 m = v[i];
+                v[i] = v[k1];
+                v[k1] = m;
+               }
+        
+        }k1++;}
 
-            for (int i = 1; i < v.length; i++) {
-                if (v[i] > v[i + 1]) {
-                    int m = v[i];
-                    v[i] = v[i + 1];
-                    v[i + 1] = m;
-                cpt++;
-                }
+    return v;
+}
 
-            }
-
-        }while (cpt!=0);
-
-        return v;
-    }
+  
 
 }
