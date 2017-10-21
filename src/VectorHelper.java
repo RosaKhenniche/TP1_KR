@@ -78,8 +78,8 @@ public class VectorHelper {
 	
     public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] V1={1,5,8,7,2,6,4,7,8,2,7};
-		int[] V2={4,7,8,3,6,4,1,5,2,8,9,3};
+		int[] V1={1,5,8,7,2,6,4,7,8,2,72};
+		int[] V2={4,7,8,3,6,4,1,5,2,8,9,3,22,84,92,4,1,0,0,,1,0,15,8,};
 	
 		
  
