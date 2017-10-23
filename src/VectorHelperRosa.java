@@ -14,7 +14,7 @@ public class VectorHelperRosa {
 
 
             if (v[i]>MaxMin[0]) MaxMin[0]=v[i]; /* commentaire branche master*/
-            if (v[i]>MaxMin[0]) MaxMin[0]=v[i]; /* ce commentaire a été ajouté afin de vérifierles conflits*/
+            if (v[i]>MaxMin[0]) MaxMin[0]=v[i]; /* ce commentaire a été 5 ajouté afin de vérifierles conflits*/
             if (v[i]<MaxMin[1]) MaxMin[1]=v[i];
         }
         return MaxMin ;
