@@ -11,7 +11,7 @@ public class VectorHelperRosa {
      **/
         for (int i=1; i<v.length; i++)
         {
-            if (v[i]>MaxMin[0]) MaxMin[0]=v[i];
+            if (v[i]>MaxMin[0]) MaxMin[0]=v[i]; /* ce commentaire a été ajouté afin de vérifierles conflits*/
             if (v[i]<MaxMin[1]) MaxMin[1]=v[i];
         }
         return MaxMin ;
