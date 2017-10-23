@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aec3cd87-0369-47d1-8f1d-88a1297db3e6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TP1_KR/DiffrentlengthException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TP1_KR/VectorHelperRosaTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VectorHelperRosa.java" afterPath="$PROJECT_DIR$/src/VectorHelperRosa.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -254,7 +258,7 @@
       <workItem from="1508064617402" duration="785000" />
       <workItem from="1508077863393" duration="15064000" />
       <workItem from="1508588740769" duration="794000" />
-      <workItem from="1508750486985" duration="485000" />
+      <workItem from="1508750486985" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1">
       <created>1508103812905</created>
@@ -295,7 +299,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17128000" />
+    <option name="totallyTimeSpent" value="17278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1303" height="780" extended-state="6" />
