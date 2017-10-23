@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aec3cd87-0369-47d1-8f1d-88a1297db3e6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VectorHelperRosa.java" afterPath="$PROJECT_DIR$/src/VectorHelperRosa.java" />
-    </list>
+    <list default="true" id="aec3cd87-0369-47d1-8f1d-88a1297db3e6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -240,7 +238,7 @@
       <workItem from="1508064617402" duration="785000" />
       <workItem from="1508077863393" duration="15064000" />
       <workItem from="1508588740769" duration="794000" />
-      <workItem from="1508750486985" duration="1124000" />
+      <workItem from="1508750486985" duration="1250000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1">
       <created>1508103812905</created>
@@ -267,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17767000" />
+    <option name="totallyTimeSpent" value="17893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1303" height="780" extended-state="6" />
